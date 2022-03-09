@@ -1,0 +1,90 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://www.communities-ni.gov.uk/sites/default/files/styles/inline-expandable/public/images/communities/news/dfc-cold-weather.jpg?itok=Ahgw0Fqt&timestamp=1513692381");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  background-color: black;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  text-align: center;
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #282828;
+  box-shadow: 0px 2px 2px 0px;
+  /*background: #282828;*/
+  width: 250px;
+}
+
+label {
+  color: white;
+  background-color: #282828;
+  border: 1px solid #282828;
+  border-radius: 5px;
+  padding: 2px 2px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+  width: 200px;
+  height: 30px;
+  background-color: #282828;
+  border: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.resposta {
+  display: block;
+  margin: 20px auto;
+  max-width: 400px;
+  min-width: 400px;
+  background: #282828;
+  /*border: 1px solid #fd951f11;*/
+  border-radius: 9px;
+  margin: 9px auto;
+  font-family: Verdana, sans-serif;
+  font-size: 23px;
+  /*padding: 2px 2px;*/
+}
